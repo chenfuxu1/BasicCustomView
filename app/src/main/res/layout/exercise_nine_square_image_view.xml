@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="MissingDefaultResource">
+
+    <com.example.basiccustomview.exercise.exercise9.view.ParentView android:id="@+id/parent_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="172dp">
+
+        <com.example.basiccustomview.exercise.exercise9.view.SquareImageLayout android:id="@+id/square_image_layout"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:background="#2b2b2b"
+            tools:ignore="MissingConstraints">
+
+            <com.example.basiccustomview.exercise.exercise9.view.SquareImageView android:id="@+id/square_image_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@mipmap/yihu"
+                tools:ignore="MissingConstraints" />
+
+        </com.example.basiccustomview.exercise.exercise9.view.SquareImageLayout>
+
+        <SeekBar android:id="@+id/seek_bar_width"
+            android:layout_width="300dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="280dp" />
+
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/seek_bar_width"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="-6dp"
+            android:layout_toRightOf="@+id/seek_bar_width"
+            android:text="宽度"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <SeekBar android:id="@+id/seek_bar_height"
+            android:layout_width="300dp"
+            android:layout_height="20dp"
+            android:layout_below="@+id/seek_bar_width"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp" />
+
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/seek_bar_height"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="-6dp"
+            android:layout_toRightOf="@+id/seek_bar_height"
+            android:text="高度"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <com.example.basiccustomview.exercise.exercise9.view.SquareImageLayout2 android:id="@+id/square_image_layout_2"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:layout_below="@+id/guideline2"
+            android:layout_marginTop="365dp"
+            android:background="#2b2b2b"
+            tools:ignore="MissingConstraints">
+
+            <ImageView android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@mipmap/yihu" />
+
+        </com.example.basiccustomview.exercise.exercise9.view.SquareImageLayout2>
+
+        <SeekBar android:id="@+id/seek_bar_width_2"
+            android:layout_width="300dp"
+            android:layout_height="20dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginBottom="50dp" />
+
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/seek_bar_width_2"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="-6dp"
+            android:layout_toRightOf="@+id/seek_bar_width_2"
+            android:text="宽度"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <SeekBar android:id="@+id/seek_bar_height_2"
+            android:layout_width="300dp"
+            android:layout_height="20dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginBottom="20dp" />
+
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/seek_bar_height_2"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="-6dp"
+            android:layout_toRightOf="@+id/seek_bar_height_2"
+            android:text="高度"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </com.example.basiccustomview.exercise.exercise9.view.ParentView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.basiccustomview">
+
+    <application android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BasicCustomView"
+        tools:targetApi="31">
+        <activity android:name=".customview.customview1.MainActivity"
+            android:exported="true">
+            <!--<intent-filter>-->
+            <!--    <action android:name="android.intent.action.MAIN" />-->
+
+            <!--    <category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
+        </activity>
+
+        <activity android:name=".exercise.exercise1.ExerciseActivity"
+            android:exported="true">
+            <!--<intent-filter>-->
+            <!--    <action android:name="android.intent.action.MAIN" />-->
+
+            <!--    <category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
+        </activity>
+
+        <activity android:name=".customview.customview2.CustomViewActivity2"
+            android:exported="true">
+            <!--<intent-filter>-->
+            <!--    <action android:name="android.intent.action.MAIN" />-->
+
+            <!--    <category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
+        </activity>
+
+        <activity android:name=".exercise.exercise2.Exercise2Activity"
+            android:exported="true">
+            <!--<intent-filter>-->
+            <!--    <action android:name="android.intent.action.MAIN" />-->
+
+            <!--    <category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
+        </activity>
+
+        <activity android:name=".customview.customview3.CustomViewActivity3"
+            android:exported="true">
+            <!--<intent-filter>-->
+            <!--    <action android:name="android.intent.action.MAIN" />-->
+
+            <!--    <category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
+        </activity>
+
+        <activity android:name=".exercise.exercise3.Exercise3Activity"
+            android:exported="true">
+            <!--<intent-filter>-->
+            <!--    <action android:name="android.intent.action.MAIN" />-->
+
+            <!--    <category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
+        </activity>
+
+        <activity android:name=".customview.customview4.CustomViewActivity4"
+            android:exported="true">
+            <!--<intent-filter>-->
+            <!--    <action android:name="android.intent.action.MAIN" />-->
+
+            <!--    <category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
+        </activity>
+
+        <activity android:name=".exercise.exercise4.Exercise4Activity"
+            android:exported="true">
+            <!--<intent-filter>-->
+            <!--    <action android:name="android.intent.action.MAIN" />-->
+
+            <!--    <category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
+        </activity>
+
+        <activity android:name=".exercise.exercise4.FlipboardActivity"
+            android:exported="true">
+            <!--<intent-filter>-->
+            <!--    <action android:name="android.intent.action.MAIN" />-->
+
+            <!--    <category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
+        </activity>
+
+        <activity android:name=".exercise.exercise5.Exercise5Activity"
+            android:exported="true">
+            <!--<intent-filter>-->
+            <!--    <action android:name="android.intent.action.MAIN" />-->
+
+            <!--    <category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
+        </activity>
+
+        <activity android:name=".customview.customview6.CustomViewActivity6"
+            android:exported="true">
+            <!--<intent-filter>-->
+            <!--    <action android:name="android.intent.action.MAIN" />-->
+
+            <!--    <category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
+        </activity>
+
+        <activity android:name=".exercise.exercise6.Exercise6Activity"
+            android:exported="true">
+            <!--<intent-filter>-->
+            <!--    <action android:name="android.intent.action.MAIN" />-->
+
+            <!--    <category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
+        </activity>
+
+        <activity android:name=".customview.customview7.CustomViewActivity7"
+            android:exported="true">
+            <!--<intent-filter>-->
+            <!--    <action android:name="android.intent.action.MAIN" />-->
+
+            <!--    <category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
+        </activity>
+
+        <activity android:name=".exercise.exercise7.Exercise7Activity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".customview.customview9.CustomViewActivity9"
+            android:exported="true">
+            <!--<intent-filter>-->
+            <!--    <action android:name="android.intent.action.MAIN" />-->
+
+            <!--    <category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
+        </activity>
+
+        <activity android:name=".exercise.exercise9.Exercise9Activity"
+            android:exported="true">
+            <!--<intent-filter>-->
+            <!--    <action android:name="android.intent.action.MAIN" />-->
+
+            <!--    <category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
+        </activity>
+    </application>
+
+</manifest>
