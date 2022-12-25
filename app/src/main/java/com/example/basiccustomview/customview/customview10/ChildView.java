@@ -66,7 +66,7 @@ public class ChildView extends ParentView{
         switch (specMode) {
             case MeasureSpec.UNSPECIFIED:
                 // 父 view 无限制，那么子 view 不需要进行修正了，直接返回传入的 size 尺寸值
-                return specSize;
+                return size;
             case MeasureSpec.AT_MOST:
                 // 父 view 限制上限，上限为 specSize
                 if (size <= specSize) {
